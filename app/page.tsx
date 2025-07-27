@@ -49,9 +49,9 @@ const societies = [
   },
   {
     id: "iutsiks",
-    name: "IUT Science & Innovation Knowledge Society",
+    name: "IUT Society for Islamic Knowledge Seekers",
     acronym: "IUTSIKS",
-    description: "Promoting scientific research and innovation across all engineering disciplines.",
+    description: "Inspiring students to seek knowledge and promote Islamic values through various activities.",
     icon: Award,
     color: "bg-orange-500",
     upcomingEvents: 1,
@@ -63,9 +63,9 @@ const societies = [
   },
   {
     id: "iutps",
-    name: "IUT Programming Society",
+    name: "IUT Photographic Society",
     acronym: "IUTPS",
-    description: "Enhancing programming skills and competitive coding abilities of IUT students.",
+    description: "Capturing moments and fostering creativity through photography and visual arts.",
     icon: Database,
     color: "bg-red-500",
     upcomingEvents: 2,
