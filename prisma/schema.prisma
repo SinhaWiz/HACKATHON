@@ -6,10 +6,36 @@
 
 generator client {
   provider = "prisma-client-js"
-  output   = "../lib/generated/prisma"
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Society {
+  id          String   @id
+  name        String
+  acronym     String
+  description String
+  members     Int
+  events      Event[]
+  registrations Registration[]
+}
+
+model Event {
+  id          Int      @id @default(autoincrement())
+  title       String
+  date        DateTime
+  societyId   String
+  society     Society  @relation(fields: [societyId], references: [id])
+}
+
+model Registration {
+  id          Int      @id @default(autoincrement())
+  studentName String
+  email       String
+  societyId   String
+  society     Society  @relation(fields: [societyId], references: [id])
+  createdAt   DateTime @default(now())
 }
