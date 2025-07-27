@@ -145,10 +145,10 @@ const societies = [
   },
   {
     id: "iutsiks",
-    name: "IUT Science & Innovation Knowledge Society",
+    name: "IUT Society for Islamic Knowledge seekers",
     acronym: "IUTSIKS",
     description:
-      "IUTSIKS promotes scientific research and innovation across all engineering disciplines. We organize research symposiums, innovation challenges, and collaborate with faculty on cutting-edge research projects.",
+      "IUT SIKS aims to promote Islamic knowledge and values among students. We organize lectures, discussions, and community service activities to foster a deeper understanding of Islam and its teachings.",
     icon: Award,
     color: "bg-orange-500",
     founded: "2017",
@@ -185,10 +185,10 @@ const societies = [
   },
   {
     id: "iutps",
-    name: "IUT Programming Society",
+    name: "IUT Photographic Society",
     acronym: "IUTPS",
     description:
-      "IUTPS enhances programming skills and competitive coding abilities of IUT students. We organize programming contests, algorithm workshops, and prepare students for international programming competitions like ACM ICPC.",
+      "IUTPS is dedicated to promoting photography as an art form and a means of expression. We organize photo walks, exhibitions, and workshops to enhance the skills of our members and showcase their work.",
     icon: Database,
     color: "bg-red-500",
     founded: "2013",
