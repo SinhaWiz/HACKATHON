@@ -416,6 +416,23 @@ export default function SocietiesPage() {
                     </div>
                   </CardContent>
                 </Card>
+                <Card>
+                  <CardContent>
+  {/* ...existing content... */}
+  <div className="border-t pt-6">
+    <h3 className="text-lg font-semibold mb-4">Contact Information</h3>
+    {/* ...contact info... */}
+    <div className="mt-6">
+      <Button
+        className="w-full bg-blue-600 text-white"
+        onClick={() => {/* open registration modal or redirect to registration page */}}
+      >
+        Register for {society.name}
+      </Button>
+    </div>
+  </div>
+</CardContent>
+                </Card>
               </div>
             </TabsContent>
           ))}
